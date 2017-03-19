@@ -1,0 +1,8 @@
+name: essentials-inspec
+title: Configuration Validation
+maintainer: Annie Hedgpeth
+copyright: Annie Hedgpeth
+copyright_email: ahedgpeth@10thmagnitude.com
+license: All Rights Reserved
+summary: InSpec Profile for Configuration Validation of Chef Essentials Training Environments
+version: 0.1.0
