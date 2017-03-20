@@ -34,10 +34,6 @@ describe command('chef-client --version') do
   its('stdout') { should match (/Chef:/) }
 end
 
-describe package('googlechrome') do
-  it { should be_installed }
-end
-
 describe port(80) do
   it { should be_listening }
 end
