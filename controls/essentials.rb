@@ -34,11 +34,7 @@ describe command('chef-client --version') do
   its('stdout') { should match (/Chef:/) }
 end
 
-describe service('visualstudiocode') do
-  it { should be_installed }
-end
-
-describe package('chrome') do
+describe package('googlechrome') do
   it { should be_installed }
 end
 
