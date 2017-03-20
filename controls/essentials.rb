@@ -14,6 +14,10 @@ describe command('choco') do
   it { should exist }
 end
 
+describe command('code') do
+  it { should exist }
+end
+
 describe command('chef') do
   it { should exist }
 end
