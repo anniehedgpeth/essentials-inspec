@@ -5,7 +5,7 @@
 title 'Essentials for Windows Training Environments'
 
 # you can also use plain tests
-describe file('C:/Users/chef/credentials') do
+describe file('C:/Users/chef/.azure/credentials') do
   it { should be_file }
   it { should exist }
 end
